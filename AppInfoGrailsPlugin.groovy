@@ -2,19 +2,19 @@ import com.burtbeckwith.grails.plugins.appinfo.ContextListener
 
 class AppInfoGrailsPlugin {
 
-	String version = '1.1.1'
-	String grailsVersion = '2.0 > *'
+	def version = '1.1.1-frontlinesms'
+	def grailsVersion = '2.0 > *'
 	List pluginExcludes = [
 		'scripts/CreateAppInfoTestApps.groovy'
 	]
 
-	String author = 'Burt Beckwith'
-	String authorEmail = 'burt@burtbeckwith.com'
-	String title = 'Application Info'
-	String description = "UI for inspecting various aspects of the application's configuration"
-	String documentation = 'http://grails.org/plugin/app-info'
+	def author = 'Burt Beckwith'
+	def authorEmail = 'burt@burtbeckwith.com'
+	def title = 'Application Info'
+	def description = "UI for inspecting various aspects of the application's configuration"
+	def documentation = 'http://grails.org/plugin/app-info'
 
-	String license = 'APACHE'
+	def license = 'APACHE'
 	def issueManagement = [system: 'JIRA', url: 'http://jira.grails.org/browse/GPAPPINFO']
 	def scm = [url: 'https://github.com/burtbeckwith/grails-app-info']
 
